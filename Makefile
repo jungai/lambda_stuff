@@ -8,3 +8,4 @@ install:
 
 compile-all:
 	pnpm run --filter app build
+	pnpm run --filter sns_handlers build
