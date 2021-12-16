@@ -1,7 +1,13 @@
 {
-  "name": "sns_handlers",
-  "version": "1.0.0",
-  "main": "lib/index.js",
-  "author": "jungai",
-  "license": "ISC"
+	"name": "sns_handlers",
+	"version": "1.0.0",
+	"main": "lib/index.js",
+	"author": "jungai",
+	"license": "ISC",
+	"scripts": {
+		"build": "pnpm exec tsc -p ./tsconfig-onlyts.json"
+	},
+	"dependencies": {
+		"app": "1.0.0"
+	}
 }

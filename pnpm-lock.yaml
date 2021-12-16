@@ -19,7 +19,10 @@ importers:
       got: 11.8.3
 
   lambdas/sns_handlers:
-    specifiers: {}
+    specifiers:
+      app: 1.0.0
+    dependencies:
+      app: link:../../app
 
 packages:
 
