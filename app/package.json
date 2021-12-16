@@ -1,9 +1,14 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
-  "author": "jungai",
-  "license": "ISC"
+	"name": "app",
+	"version": "1.0.0",
+	"main": "lib/index.js",
+	"typings": "lib/index.d.ts",
+	"author": "jungai",
+	"license": "ISC",
+	"scripts": {
+		"build": "pnpm exec tsc -p ./tsconfig-onlyts.json"
+	},
+	"dependencies": {
+		"got": "^11"
+	}
 }
