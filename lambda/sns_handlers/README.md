@@ -17,5 +17,6 @@ invoke lambda function locally with `sam local`
 ```bash
 sam local invoke
 ```
+> it will create docker container behind the scenes
 
 if success it will send discord message with `{}`
