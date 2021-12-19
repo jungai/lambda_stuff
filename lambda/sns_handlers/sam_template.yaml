@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Transform: AWS::Serverless-2016-10-31
+
+Description: One of my lambda collection
+
+Globals:
+  Function:
+    Runtime: nodejs14.x
+    Timeout: 30
+    MemorySize: 128
+
+Parameters:
+  AppName:
+    Type: String
+    Default: 'test-sns-handler'
+
+Resources:
+  SnsHandler:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      FunctionName: !Sub '${AppName}'
+      Handler: 'lib/index.handlers'
