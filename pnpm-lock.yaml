@@ -18,7 +18,7 @@ importers:
     dependencies:
       got: 11.8.3
 
-  lambdas/sns_handlers:
+  lambda/sns_handlers:
     specifiers:
       app: 1.0.0
     dependencies:
