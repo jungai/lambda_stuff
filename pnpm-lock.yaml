@@ -20,9 +20,17 @@ importers:
 
   lambda/sns_handlers:
     specifiers:
-      app: 1.0.0
+      app: ./src/app
+      dotenv: ^10.0.0
     dependencies:
-      app: link:../../app
+      app: link:src/app
+      dotenv: 10.0.0
+
+  lambda/sns_handlers/src/app:
+    specifiers:
+      got: ^11
+    dependencies:
+      got: 11.8.3
 
 packages:
 
@@ -104,6 +112,11 @@ packages:
 
   /defer-to-connect/2.0.1:
     resolution: {integrity: sha512-4tvttepXG1VaYGrRibk5EwJd1t4udunSOVMdLSAL6mId1ix438oPwPZMALY41FCijukO1L0twNcGsdzS7dHgDg==}
+    engines: {node: '>=10'}
+    dev: false
+
+  /dotenv/10.0.0:
+    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
     engines: {node: '>=10'}
     dev: false
 

@@ -5,9 +5,17 @@
 	"author": "jungai",
 	"license": "ISC",
 	"scripts": {
+		"add-app": "./scritps/copy_app.sh",
 		"build": "pnpm exec tsc -p ./tsconfig-onlyts.json"
 	},
 	"dependencies": {
-		"app": "1.0.0"
-	}
+		"app": "./src/app",
+		"dotenv": "^10.0.0"
+	},
+	"files": [
+		"lib",
+		"src/app",
+		"scripts",
+		".env"
+	]
 }

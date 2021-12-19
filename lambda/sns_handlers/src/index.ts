@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import type { SNSHandler } from 'aws-lambda';
 import { cloudWatchAlarmWithSns } from 'app';
 
