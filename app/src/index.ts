@@ -1,1 +1,1 @@
-export { cloudWatchAlarmWithSns } from './sns_handlers'
+export { cloudWatchAlarmWithSns } from './sns_handlers';
