@@ -1,8 +1,8 @@
 import type { SNSHandler } from 'aws-lambda';
 import { cloudWatchAlarmWithSns } from 'app';
 
-export const hanlders: SNSHandler = async (event) => {
+export const handlers: SNSHandler = async (event) => {
 	await cloudWatchAlarmWithSns(event);
 };
 
-export default hanlders;
+export default handlers;
