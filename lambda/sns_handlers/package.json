@@ -5,7 +5,7 @@
 	"author": "jungai",
 	"license": "ISC",
 	"scripts": {
-		"add-app": "./scritps/copy_app.sh",
+		"add-app": "./scripts/copy_app.sh",
 		"build": "pnpm exec tsc -p ./tsconfig-onlyts.json"
 	},
 	"dependencies": {
