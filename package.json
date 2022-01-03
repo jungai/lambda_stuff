@@ -15,7 +15,7 @@
 		"lint": "prettier --write ."
 	},
 	"devDependencies": {
-		"@types/aws-lambda": "^8.10.88",
+		"@types/aws-lambda": "^8.10.89",
 		"prettier": "^2.5.1",
 		"typescript": "^4.5.4"
 	}
