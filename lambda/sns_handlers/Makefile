@@ -1,4 +1,4 @@
-.PHONY: default prepare
+.PHONY: default prepare deploy
 
 default:
 	make prepare
