@@ -6,7 +6,7 @@
 	"license": "ISC",
 	"scripts": {
 		"add-app": "./scripts/copy_app.sh",
-		"build": "pnpm exec tsc -p ./tsconfig-onlyts.json"
+		"build": "tsc -p ./tsconfig-onlyts.json"
 	},
 	"dependencies": {
 		"app": "./src/app",
