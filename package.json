@@ -12,7 +12,8 @@
 	},
 	"homepage": "https://github.com/jungai/lambda_stuff#readme",
 	"scripts": {
-		"lint": "prettier --write ."
+		"lint": "prettier --write .",
+		"log": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
 	},
 	"devDependencies": {
 		"@types/aws-lambda": "^8.10.89",
