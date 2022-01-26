@@ -16,8 +16,8 @@
 		"log": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
 	},
 	"devDependencies": {
-		"@types/aws-lambda": "^8.10.89",
+		"@types/aws-lambda": "^8.10.92",
 		"prettier": "^2.5.1",
-		"typescript": "^4.5.4"
+		"typescript": "^4.5.5"
 	}
 }
